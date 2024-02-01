@@ -21,44 +21,56 @@
     />
     <meta name="author" content="Sebahattin Demir" />
     <title>Getir Clone - Dakikalar İçinde Kapınızda</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="assest/css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <div>
-          <div>
-            <a href="#"
-              ><img src="assest/img/logo-banner-img/getir-logo.svg" alt="Getir"
-            /></a>
-          </div>
-          <div>
-            <a href="#"
-              ><img
-                src="assest/img/logo-banner-img/getir-yemek.svg"
-                alt="GetirYemek"
-            /></a>
-          </div>
-          <div>
-            <a href="#"
-              ><img
-                src="assest/img/logo-banner-img/getir-buyuk.svg"
-                alt="GetirBuyuk"
-            /></a>
-          </div>
-          <div>
-            <a href="#"
-              ><img src="assest/img/logo-banner-img/getir-su.png" alt="GetirSu"
-            /></a>
-          </div>
-          <div>
-            <a href="#"
-              ><img
-                src="assest/img/logo-banner-img/getir-carsi.png"
-                alt="GetirCarsi"
-            /></a>
-          </div>
-          <!--  <li>
+    <header class="hdr">
+      <nav class="hdr-nav">
+        <div class="hdr-nav-full">
+          <div class="hdr-nav-left">
+            <div class="hdr-left hdr-getir">
+              <a href="#"
+                ><img
+                  src="assest/img/logo-banner-img/getir-logo.svg"
+                  alt="Getir" width="35.33" height="16"
+              /></a>
+            </div>
+            <div class="hdr-left hdr-yemek">
+              <a href="#"
+                ><img
+                  src="assest/img/logo-banner-img/getir-yemek.svg"
+                  alt="GetirYemek" width="87.33" height="16"
+              /></a>
+            </div>
+            <div class="hdr-left hdr-buyuk">
+              <a href="#"
+                ><img
+                  src="assest/img/logo-banner-img/getir-buyuk.svg"
+                  alt="GetirBuyuk" width="81.33" height="16"
+              /></a>
+            </div>
+            <div class="hdr-left hdr-su">
+              <a href="#"
+                ><img
+                  src="assest/img/logo-banner-img/getir-su.png"
+                  alt="GetirSu" width="52.5" height="16"
+              /></a>
+            </div>
+            <div class="hdr-left hdr-carsi">
+              <a href="#"
+                ><img
+                  src="assest/img/logo-banner-img/getir-carsi.png"
+                  alt="GetirCarsi" width="72.09" height="16"
+              /></a>
+            </div>
+            <!--  <li>
               <img src="assest/img/logo-banner-img/getir-yemek.svg" alt="" />
             </li>
             <li>
@@ -71,28 +83,33 @@
               <img src="assest/img/logo-banner-img/getir-carsi.png" alt="" />
             </li>
           </ul> -->
-        </div>
-        <div>
-          <div>
-            <button>
-              <div>
-                icon
-                <span>Türkçe (TR)</span>
-              </div>
-            </button>
           </div>
-          <div><button>
-            <div>
-              icon
-              <span>Giriş yap</span>
+          <div class="hdr-nav-right">
+            <div class="hdr-right hdr-lang">
+              <button class="hdr-right-btn">
+                
+                  <img src="assest/img/logo-banner-img/turkish-flag.gif" alt="TurkishFlag" width="19" height="13">
+                  <span class="spn-lang">Türkçe (TR)</span>
+                
+              </button>
             </div>
-          </button></div>
-          <div><button>
-            <div>
-              icon
-              <span>Kayıt Ol</span>
+            <div class="hdr-right hdr-login">
+              <button class="hdr-right-btn">
+                
+                  <i class="fa-solid fa-user"></i>
+                  <span class="spn-login">Giriş yap</span>
+                
+              </button>
             </div>
-          </button></div>
+            <div class="hdr-right hdr-register">
+              <button class="hdr-right-btn">
+                
+                  <i class="fa-solid fa-user-plus"></i>
+                  <span class="spn-register">Kayıt Ol</span>
+                
+              </button>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
