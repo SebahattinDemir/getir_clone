@@ -65,7 +65,6 @@ body {
 
 .hdr-left {
   display: inline-flex;
-
   border-radius: 6px 6px 0 0;
   height: 100%;
   align-items: center;
@@ -81,6 +80,7 @@ body {
 
 .hdr-left a {
   padding: 12px 20px;
+  margin-top: 5px;
 }
 
 .hdr-left:not(:last-child) {
