@@ -48,6 +48,7 @@ body {
   height: 45px;
   padding: 0 32px;
   background-color: rgb(76, 51, 152);
+  font-size: 10px;
 }
 
 .hdr-nav-full {
@@ -79,8 +80,7 @@ body {
 }
 
 .hdr-left a {
-  padding: 12px 20px;
-  margin-top: 5px;
+  padding: 9px 20px;
 }
 
 .hdr-left:not(:last-child) {
@@ -105,7 +105,7 @@ body {
   white-space: nowrap;
   cursor: pointer;
   align-items: center;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .hdr-right-btn .spn-lang {
