@@ -51,7 +51,6 @@ body {
 }
 
 .hdr-nav-full {
-  max-width: 1232px;
   width: 100%;
   height: 100%;
   display: flex;
