@@ -38,7 +38,7 @@ body {
 .hdr {
   position: sticky;
   top: 0;
-  
+  z-index: 999;
 }
 
 .hdr-nav {
@@ -124,7 +124,8 @@ body {
   height: 19px;
 }
 
-.hdr-right-btn img,i {
+.hdr-right-btn img,
+i {
   margin-right: 8px;
   display: inline-flex;
   align-items: center;
@@ -132,19 +133,29 @@ body {
 
 /*! MAIN */
 
-main .banner{
+.banner {
   position: relative;
+  height: 265px;
   padding: 0 32px;
-  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  bottom: 350px;
 }
 
-.main-left{
-  position: absolute;
-  bottom: 160px;
-}
-
-.main-left h2{
+.banner .main-left h2 {
   font-size: 36px;
   margin-top: 41px;
   margin-bottom: 0;
+}
+
+.banner .main-right {
+  background-color: var(--color-gray-background);
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  box-shadow: var(--shadow-card-hover);
+  border-radius: 8px;
+  z-index: 10;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
