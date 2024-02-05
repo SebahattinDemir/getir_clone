@@ -38,7 +38,7 @@ body {
 .hdr {
   position: sticky;
   top: 0;
-  z-index: 999;
+  
 }
 
 .hdr-nav {
@@ -105,7 +105,8 @@ body {
   white-space: nowrap;
   cursor: pointer;
   align-items: center;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .hdr-right-btn .spn-lang {
@@ -127,4 +128,23 @@ body {
   margin-right: 8px;
   display: inline-flex;
   align-items: center;
+}
+
+/*! MAIN */
+
+main .banner{
+  position: relative;
+  padding: 0 32px;
+  z-index: 999;
+}
+
+.main-left{
+  position: absolute;
+  bottom: 160px;
+}
+
+.main-left h2{
+  font-size: 36px;
+  margin-top: 41px;
+  margin-bottom: 0;
 }
