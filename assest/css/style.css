@@ -52,6 +52,11 @@ body {
   background-color: rgb(76, 51, 152);
   width: 150px;
   padding-bottom: 0px;
+  border-radius: 0px 0px 6px 0px;
+  -webkit-border-radius: 0px 0px 6px 0px;
+  -moz-border-radius: 0px 0px 6px 0px;
+  -ms-border-radius: 0px 0px 6px 0px;
+  -o-border-radius: 0px 0px 6px 0px;
 }
 
 .navbar-full {
