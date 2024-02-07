@@ -50,6 +50,8 @@ body {
 .navbar {
   position: absolute;
   background-color: rgb(76, 51, 152);
+  width: 150px;
+  padding-bottom: 0px;
 }
 
 .navbar-full {
@@ -76,6 +78,19 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgb(76, 51, 152);
+}
+
+.nav-link{
+  padding-left: 20px;
+}
+
+.nav-link:hover {
+  background-color: var(--color-primary);
+  border-radius: 6px 6px 0 0;
+  -webkit-border-radius: 6px 6px 0 0;
+  -moz-border-radius: 6px 6px 0 0;
+  -ms-border-radius: 6px 6px 0 0;
+  -o-border-radius: 6px 6px 0 0;
 }
 
 /*! HEADER */
