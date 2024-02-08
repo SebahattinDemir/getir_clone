@@ -293,6 +293,16 @@ i {
   color: var(--color-primary);
 }
 
+.location-text{
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.location-text:focus{
+  outline: none;
+}
+
 .main-register {
   width: 100%;
   height: 200px;
@@ -305,10 +315,16 @@ i {
   background-color: var(--color-gray-blue);
 }
 
+@media (min-width: 768px) {
+  .main-register-section {
+    display: none;
+  }
+}
+
 .main-register-div {
   width: 100%;
   height: 100%;
-  
+  padding: 24px 0px;
 }
 
 .main-register-div h5{
@@ -316,11 +332,13 @@ i {
   justify-content: center;
   font-size: 18px;
   font-weight: 500;
+  margin-bottom: 15px;
 }
 
 .tel{
   display: flex;
   gap: 10px;
+  margin-bottom: 12px;
 }
 
 .tel-left-btn{
@@ -366,6 +384,17 @@ i {
   -o-border-radius: 5px;
 }
 
+.tel-button button{
+  width: 100%;
+  height: 48px;
+  background-color: var(--color-brand-yellow);
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
 
 
 /* .banner {
