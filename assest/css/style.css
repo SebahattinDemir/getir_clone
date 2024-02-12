@@ -399,6 +399,20 @@ i {
   -o-border-radius: 10px;
 }
 
+.ctgry-link{
+  display: grid;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.figure-category{
+  margin: 0px;
+  width: 48px;
+  justify-content: center;
+}
+
+
 
 /* .banner {
   position: relative;
