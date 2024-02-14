@@ -258,6 +258,7 @@ i {
 
 /*! MAIN */
 
+
 .location-btn {
   display: inline-flex;
   padding: 5px 12px;
@@ -318,6 +319,23 @@ i {
 @media (min-width: 768px) {
   .main-register-section {
     display: none;
+  }
+}
+
+.ctgryh6{
+  padding: 12px;
+}
+
+.ctgry-full{
+  position: relative;
+  display: grid;
+  gap: 12px;
+}
+
+@media (min-width: 768px) {
+  .ctgry-full {
+    gap: 0px;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
