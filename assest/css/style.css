@@ -258,6 +258,18 @@ i {
 
 /*! MAIN */
 
+.col{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.row-cols-md-5 {
+  width: 100vw;
+}
+
+.row-cols-md-5 .col {
+  margin-bottom: 15px;
+}
 
 .location-btn {
   display: inline-flex;
@@ -323,7 +335,7 @@ i {
 }
 
 .ctgryh6{
-  padding: 12px;
+  padding: 16px 16px 0px 16px;
 }
 
 .ctgry-full{
