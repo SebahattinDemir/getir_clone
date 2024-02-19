@@ -473,6 +473,43 @@ i {
   align-items: center;
 }
 
+.getir-kampanya-section{
+  padding: 0px 16px;
+}
+
+.getir-kampanya{
+ flex-direction: column;
+}
+
+.getir-kampanya-div{
+  
+}
+
+.getir-kampanya-span-1{
+  margin: 24px 0px 0px;
+}
+
+.getir-kampanya-span-2{
+  margin: 8px 0px 0px;
+}
+
+.getir-kampanya-div-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  width: 100%;
+  padding: 32px 16px;
+}
+
+.getir-kampanya img{
+  display: grid;
+  justify-content: center;
+ 
+
+}
+
 /* .banner {
   position: relative;
   height: 265px;
