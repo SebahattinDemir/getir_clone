@@ -524,6 +524,12 @@ i {
   max-width: 100%; 
 }
 
+/*! FOOTER */
+
+.footer-1{
+  padding: 0px 16px;
+}
+
 /* .banner {
   position: relative;
   height: 265px;
