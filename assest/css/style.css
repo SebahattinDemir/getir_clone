@@ -526,8 +526,60 @@ i {
 
 /*! FOOTER */
 
-.footer-1{
-  padding: 0px 16px;
+.menu-container {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.toggle-menu {
+  padding: 16px;
+  background-color: var(--color-white);
+  border: none;
+  color: var(--color-primary);
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+
+.menu-checkbox {
+  display: none;
+}
+
+.menu-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.menu-checkbox:checked + .menu-content {
+  max-height: 200px;
+  color: var(--color-black);
+}
+
+.menu-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-white);
+}
+
+.menu-content li {
+  margin-bottom: 8px;
+}
+
+.menu-content a {
+  text-decoration: none;
+  color: var(--color-black);
+  padding-left: 16px;
+}
+
+.menu-content a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 /* .banner {
