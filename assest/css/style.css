@@ -281,7 +281,7 @@ i {
   align-items: center;
   justify-content: center;
   width: 400px;
-  height: 217px;
+  height: 200px;
   flex-direction: column;
   box-shadow: var(--shadow-card-hover);
   border-radius: 8px;
@@ -450,7 +450,10 @@ i {
   gap: 8px;
   display: flex;
   align-items: center;
-  padding: 16px 14px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgba(128, 128, 128, 0.3);
+  padding: 10px 14px;
+  border-radius: 5px;
 }
 
 .tel-left p {
