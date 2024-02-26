@@ -587,6 +587,7 @@ overflow: hidden;
 @media (min-width: 768px) {
   .getir-app {
     display: flex;
+    gap: .625rem;
   }
   .getir-app img{
     width: 160px;
@@ -645,8 +646,8 @@ overflow: hidden;
 }
 
 @media (min-width: 768px) {
-  .getir-kampanya-div {
-    margin-bottom: 16px; 
+  .getir-kampanya-div { 
+    margin-bottom: 0px;
     flex: 1;
     background-color: var(--color-white);
   }
@@ -693,6 +694,8 @@ overflow: hidden;
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  
 .toggle-menu {
   padding: 16px;
   background-color: var(--color-white);
@@ -741,6 +744,12 @@ overflow: hidden;
 .menu-content a:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.footer-getir-download{
+  display: none;
+}
+
 }
 
 .footer {
