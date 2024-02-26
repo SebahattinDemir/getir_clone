@@ -648,14 +648,16 @@ overflow: hidden;
   .getir-kampanya-div {
     margin-bottom: 16px; 
     flex: 1;
-    height: 100%;
     background-color: var(--color-white);
   }
 }
 
-.getir-kampanya-div:last-child {
-  margin-bottom: 0;
+@media (max-width: 768px) {
+  .getir-kampanya-div:last-child {
+    margin-bottom: 0;
+  }
 }
+
 
 .getir-kampanya-span-1 {
   margin: 24px 0 0;
