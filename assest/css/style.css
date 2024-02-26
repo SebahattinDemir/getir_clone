@@ -312,16 +312,20 @@ i {
 }
 
 .slide::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, var(--color-primary) 0%, rgba(93,62,188,0) 100%);
+  background: linear-gradient(
+    90deg,
+    var(--color-primary) 0%,
+    rgba(93, 62, 188, 0) 100%
+  );
   opacity: 1;
   z-index: 1;
-} 
+}
 
 @media (max-width: 768px) {
   .logo-banner {
@@ -421,7 +425,6 @@ i {
   gap: 12px;
 }
 
-
 .main-register-div {
   width: 100%;
   height: 100%;
@@ -471,9 +474,8 @@ i {
   border: 2px solid rgba(128, 128, 128, 0.3);
 }
 
-
-@media(max-width: 768px) {
-  .tel-left{
+@media (max-width: 768px) {
+  .tel-left {
     border: none;
   }
 }
@@ -552,27 +554,27 @@ i {
     width: auto;
     background-image: url(../img/getir-background-img.png);
     margin: 24px;
-    border-radius:8px ;
+    border-radius: 8px;
     padding: 0px;
-    -webkit-border-radius:8px ;
-    -moz-border-radius:8px ;
-    -ms-border-radius:8px ;
-    -o-border-radius:8px ;
-}
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
 }
 
-.getir-download-div{
+.getir-download-div {
   display: flex;
 }
 
-.getir-indir{
-display: flex;
-overflow: hidden;
+.getir-indir {
+  display: flex;
+  overflow: hidden;
 }
 
 @media (max-width: 768px) {
   .getir-indir {
-      display: none;   
+    display: none;
   }
 }
 
@@ -587,22 +589,20 @@ overflow: hidden;
 @media (min-width: 768px) {
   .getir-app {
     display: flex;
-    gap: .625rem;
+    gap: 0.625rem;
   }
-  .getir-app img{
+  .getir-app img {
     width: 160px;
     height: 48px;
   }
-  .getir-download-div-1{
+  .getir-download-div-1 {
     margin-left: 48px;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: flex-start;
   }
-
 }
-
 
 .getir-h2 {
   display: grid;
@@ -646,7 +646,7 @@ overflow: hidden;
 }
 
 @media (min-width: 768px) {
-  .getir-kampanya-div { 
+  .getir-kampanya-div {
     margin-bottom: 0px;
     flex: 1;
     background-color: var(--color-white);
@@ -658,7 +658,6 @@ overflow: hidden;
     margin-bottom: 0;
   }
 }
-
 
 .getir-kampanya-span-1 {
   margin: 24px 0 0;
@@ -695,61 +694,65 @@ overflow: hidden;
 }
 
 @media (max-width: 768px) {
-  
-.toggle-menu {
-  padding: 16px;
-  background-color: var(--color-white);
-  border: none;
-  color: var(--color-primary);
-  cursor: pointer;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 18px;
+  .toggle-menu {
+    padding: 16px;
+    background-color: var(--color-white);
+    border: none;
+    color: var(--color-primary);
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  .menu-checkbox {
+    display: none;
+  }
+
+  .menu-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+
+  .menu-checkbox:checked + .menu-content {
+    max-height: 200px;
+    color: var(--color-black);
+  }
+
+  .menu-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-white);
+  }
+
+  .menu-content li {
+    margin-bottom: 8px;
+  }
+
+  .menu-content a {
+    text-decoration: none;
+    color: var(--color-black);
+    padding-left: 16px;
+  }
+
+  .menu-content a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .footer-getir-download {
+    display: none;
+  }
 }
 
-.menu-checkbox {
-  display: none;
-}
-
-.menu-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-out;
-}
-
-.menu-checkbox:checked + .menu-content {
-  max-height: 200px;
-  color: var(--color-black);
-}
-
-.menu-content ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  background-color: var(--color-white);
-}
-
-.menu-content li {
-  margin-bottom: 8px;
-}
-
-.menu-content a {
-  text-decoration: none;
-  color: var(--color-black);
-  padding-left: 16px;
-}
-
-.menu-content a:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.footer-getir-download{
-  display: none;
-}
-
+@media (min-width: 768px) {
+  .footer-getir-download {
+    
+  }
 }
 
 .footer {
