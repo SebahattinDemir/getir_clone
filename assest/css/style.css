@@ -628,11 +628,29 @@ overflow: hidden;
   flex-direction: column;
 }
 
+@media (min-width: 768px) {
+  .getir-kampanya {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+
 .getir-kampanya-div {
   margin-bottom: 16px;
   display: flex;
   flex-direction: column;
   background-color: var(--color-white);
+}
+
+@media (min-width: 768px) {
+  .getir-kampanya-div {
+    margin-bottom: 16px; 
+    flex: 1;
+    height: 100%;
+    background-color: var(--color-white);
+  }
 }
 
 .getir-kampanya-div:last-child {
@@ -650,6 +668,7 @@ overflow: hidden;
   margin: 8px 0 0;
   font-size: 14px;
   color: var(--color-gray-storm);
+  text-align: center;
 }
 
 .getir-kampanya-div-1 {
