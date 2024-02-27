@@ -750,12 +750,47 @@ i {
 }
 
 @media (min-width: 768px) {
+  .footer-1 {
+    display: flex;
+    background-color: var(--color-white);
+  }
+
   .footer-getir-download {
     display: flex;
   }
 
-  .footer-getir-download .getir-app{
+  .footer-getir-download .getir-app {
     display: inline;
+  }
+
+  .menu-container {
+    flex: 1;
+  }
+
+  .menu-container i,
+  .menu-container input {
+    display: none;
+  }
+
+  .menu-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu-content li {
+    margin-bottom: 8px;
+  }
+
+  .menu-content a {
+    text-decoration: none;
+    color: var(--color-black);
+    padding-left: 16px;
+  }
+
+  .menu-content a:hover {
+    text-decoration: underline;
+    cursor: pointer;
   }
 }
 
