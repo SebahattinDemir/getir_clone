@@ -751,7 +751,11 @@ i {
 
 @media (min-width: 768px) {
   .footer-getir-download {
-    
+    display: flex;
+  }
+
+  .footer-getir-download .getir-app{
+    display: inline;
   }
 }
 
