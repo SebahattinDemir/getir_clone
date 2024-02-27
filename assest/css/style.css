@@ -753,6 +753,7 @@ i {
   .footer-1 {
     display: flex;
     background-color: var(--color-white);
+    padding: 24px 16px;
   }
 
   .footer-getir-download {
@@ -760,7 +761,11 @@ i {
   }
 
   .footer-getir-download .getir-app {
-    display: inline;
+    display: grid; 
+  }
+
+  .footer-getir-download .getir-app img{
+    cursor: pointer;
   }
 
   .menu-container {
@@ -772,6 +777,19 @@ i {
     display: none;
   }
 
+  .menu-container label,
+  .menu-container .getir-h2 {
+    color: var(--color-primary);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 12px;
+
+  }
+
+  .menu-container .getir-h2{
+    height: 27px;
+  }
+
   .menu-content ul {
     list-style: none;
     margin: 0;
@@ -779,17 +797,18 @@ i {
   }
 
   .menu-content li {
-    margin-bottom: 8px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 400;
   }
 
   .menu-content a {
     text-decoration: none;
     color: var(--color-black);
-    padding-left: 16px;
+    
   }
 
   .menu-content a:hover {
-    text-decoration: underline;
     cursor: pointer;
   }
 }
