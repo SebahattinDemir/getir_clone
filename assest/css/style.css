@@ -655,7 +655,7 @@ i {
     -moz-border-radius: 8;
     -ms-border-radius: 8;
     -o-border-radius: 8;
-}
+  }
 }
 
 @media (max-width: 768px) {
@@ -766,10 +766,10 @@ i {
   }
 
   .footer-getir-download .getir-app {
-    display: grid; 
+    display: grid;
   }
 
-  .footer-getir-download .getir-app img{
+  .footer-getir-download .getir-app img {
     cursor: pointer;
   }
 
@@ -789,10 +789,9 @@ i {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 12px;
-
   }
 
-  .menu-container .getir-h2{
+  .menu-container .getir-h2 {
     height: 27px;
   }
 
@@ -811,7 +810,6 @@ i {
   .menu-content a {
     text-decoration: none;
     color: var(--color-black);
-    
   }
 
   .menu-content a:hover {
@@ -819,83 +817,83 @@ i {
   }
 }
 
+@media (max-width: 768px) {
+  .footer {
+    background-color: var(--color-gray-light);
+  }
 
-@media (max-width: 768px){
-.footer {
-  background-color: var(--color-gray-light);
-}
-
-.footer-div {
-  display: grid;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  padding: 16px;
-}
-
-.footer-div-1 {
-  text-align: center;
-  opacity: 0.7;
-  font-size: 14px;
-}
-
-.footer-div-2 {
-  text-align: center;
-  margin-top: 4px;
-  margin-bottom: 8px;
-  opacity: 0.7;
-  font-size: 14px;
-}
-
-.footer-div-3-1 {
-  display: flex;
-  gap: 20px;
-  font-size: 20px;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  opacity: 0.7;
-  padding-bottom: 8px;
-}
-
-.footer-div-3-1 article:hover {
-  cursor: pointer;
-}
-
-.footer-div-3-4 {
-  display: grid;
-  align-items: center;
-}
-
-.footer-div-3-1 button {
-  font-size: 16px;
-  border: 1px solid rgba(162, 162, 162, 0.5);
-  background-color: var(--color-white);
-  border-radius: 5px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-}
-
-}
-
-@media (min-width: 768px){
   .footer-div {
-    display: flex;
+    display: grid;
+    justify-content: center;
     width: 100%;
     height: 100%;
     padding: 16px;
   }
 
   .footer-div-1 {
-    margin-right: 12px;
+    text-align: center;
+    opacity: 0.7;
+    font-size: 14px;
   }
 
-  .footer-div-2::before{
+  .footer-div-2 {
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    opacity: 0.7;
+    font-size: 14px;
+  }
+
+  .footer-div-3-1 {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    padding-bottom: 8px;
+  }
+
+  .footer-div-3-1 article:hover {
+    cursor: pointer;
+  }
+
+  .footer-div-3-4 {
+    display: grid;
+    align-items: center;
+  }
+
+  .footer-div-3-1 button {
+    font-size: 16px;
+    border: 1px solid rgba(162, 162, 162, 0.5);
+    background-color: var(--color-white);
+    border-radius: 5px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 16px 30px;
+    align-items: center;
+  }
+
+  .footer-div-1 {
+    margin-right: 12px;
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .footer-div-2::before {
     content: "";
-    counter-increment: list 1;
     display: inline-block;
     position: relative;
     color: rgb(93, 62, 188);
@@ -903,24 +901,42 @@ i {
     height: 3px;
     border-radius: 50%;
     margin-right: 12px;
+    margin-bottom: 3px;
     background: rgb(93, 62, 188);
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-}
+  
+  }
+
+  .footer-div-2{
+    color: var(--color-primary);
+    font-size: 13px;
+    font-weight: 400;
+  }
 
   .footer-div-3-1 {
     display: flex;
-    margin-top: 4px;
-    margin-bottom: 8px;
     opacity: 0.7;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 18px;
-    position: absolute;
-    right: 0;
+    gap: 10px;
+    justify-content: end;
+    
   }
+
+  .footer-div-3-1 article {
+    border: none;
+  }
+
+  .footer-div-3-1 article button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
 }
 /* .banner {
   position: relative;
