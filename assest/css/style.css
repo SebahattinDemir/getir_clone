@@ -391,6 +391,9 @@ i {
   border: none;
   font-size: 16px;
   font-weight: 600;
+  background: none;
+  opacity: 0.7;
+
 }
 
 .location-text:focus {
@@ -437,6 +440,7 @@ i {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 15px;
+  color: var(--color-primary);
 }
 
 .main-right .right-form-div {
